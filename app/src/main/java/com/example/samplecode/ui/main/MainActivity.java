@@ -1,8 +1,6 @@
 package com.example.samplecode.ui.main;
 
-import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
 import androidx.lifecycle.Observer;
 import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.DividerItemDecoration;
@@ -11,7 +9,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
 
-import com.example.samplecode.Base.BaseActivity;
+import com.example.samplecode.base.BaseActivity;
 import com.example.samplecode.R;
 import com.example.samplecode.data.models.news.NewsModel;
 import com.example.samplecode.databinding.ActivityMainBinding;

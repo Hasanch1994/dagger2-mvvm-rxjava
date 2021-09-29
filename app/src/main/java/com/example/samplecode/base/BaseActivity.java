@@ -1,14 +1,9 @@
-package com.example.samplecode.Base;
+package com.example.samplecode.base;
 
 import android.os.Bundle;
 
 import androidx.annotation.LayoutRes;
 import androidx.annotation.Nullable;
-import androidx.databinding.BindingAdapter;
-import androidx.databinding.DataBindingUtil;
-import androidx.databinding.ViewDataBinding;
-
-import com.example.samplecode.di.components.DaggerAppComponent;
 
 import dagger.android.support.DaggerAppCompatActivity;
 
